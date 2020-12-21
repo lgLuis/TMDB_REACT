@@ -21,9 +21,13 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
     font-family: 'Playfair Display', serif;
 }
 
+.poke-img{
+    height: 125px;
+    align-items: center;
+}
 
 .header-fondo{
-    height: 7em;
+    height: 9em;
     padding: 1em;
     font-size: 20px;
     letter-spacing: 10px;
