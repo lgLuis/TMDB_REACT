@@ -23,13 +23,13 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
 
 
 .header-fondo{
-    height: 4em;
+    height: 7em;
     padding: 1em;
     font-size: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     color: #120078;
     border: 3px solid transparent;
-    border-image: linear-gradient(to bottom right, #ff8504 0%, #ff0000 25%, #fec2a9 50%, #faa16d 75%, #f300fb 100%);
+    border-image: linear-gradient(to bottom right, rgb(79, 79, 233) 0%, #032662 25%, #234c0f 50%, #0edc6a 75%, #5cf112 100%);
     border-image-slice: 1;
     -webkit-box-shadow: 5px 5px 15px 5px #DEDEDE; 
     box-shadow: 5px 5px 15px 5px #DEDEDE;
@@ -38,11 +38,11 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
 }
 
 .footer-fondo{
-    color: #fd3a69;
+    color: #08850c;
     padding: 1em;
     border: 4px solid #fd3a69;
     border: 3px solid transparent;
-    border-image: linear-gradient(to bottom left, #ff8504 0%, #fc9fff 25%, #ff1515 50%, #faa16d 75%, #f300fb 100%);
+    border-image: linear-gradient(to bottom left, rgb(79, 79, 233) 0%, #032662 25%, #234c0f 50%, #0edc6a 75%, #5cf112 100%);
     border-image-slice: 1;
     -webkit-box-shadow: 5px 5px 15px 5px #DEDEDE; 
     box-shadow: 5px 5px 15px 5px #DEDEDE;
@@ -50,7 +50,7 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
 }
 
 .ppal{
-    border: 2px solid #ff1087;
+    border: 2px solid #3ba50d;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -82,12 +82,12 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
     -webkit-border-radius: 27px;
     -moz-border-radius: 27px;
     border-radius: 10px;
-    background: rgb(255, 105, 92);
-    background: -moz-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
-    background: -webkit-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
-    background: -o-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
-    background: -ms-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
-    background: linear-gradient(0deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    background: rgb(52, 59, 196);
+    background: -moz-linear-gradient(90deg, rgb(52, 59, 196) 27%, rgb(55, 182, 59) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(52, 59, 196) 27%, rgb(55, 182, 59) 100%);
+    background: -o-linear-gradient(90deg, rgb(52, 59, 196) 27%, rgb(55, 182, 59) 100%);
+    background: -ms-linear-gradient(90deg, rgb(52, 59, 196) 27%, rgb(55, 182, 59) 100%);
+    background: linear-gradient(0deg, rgb(52, 59, 196) 27%, rgb(55, 182, 59) 100%);
     -webkit-box-shadow: 0px 7px 10px rgba(48, 50, 50, 0.53);
     -moz-box-shadow:    0px 7px 10px rgba(48, 50, 50, 0.53);
     box-shadow:         0px 7px 10px rgba(48, 50, 50, 0.53);
@@ -102,4 +102,26 @@ https://fonts.google.com/specimen/Playfair+Display?sidebar.open=true&selection.f
 }
 
 
+/*
 
+.button-color{
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 7px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 10px;
+    background: rgb(255, 105, 92);
+    background: -moz-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    background: -o-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    background: -ms-linear-gradient(90deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    background: linear-gradient(0deg, rgb(255, 105, 92) 27%, rgb(255, 184, 163) 100%);
+    -webkit-box-shadow: 0px 7px 10px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    0px 7px 10px rgba(48, 50, 50, 0.53);
+    box-shadow:         0px 7px 10px rgba(48, 50, 50, 0.53);
+    margin-bottom: 1em;
+}
+*/
