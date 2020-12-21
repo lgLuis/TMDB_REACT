@@ -8,14 +8,17 @@ class Search extends Component {
             serie: '',
             image: '#',
             resumen: '',
+//            url: "https://localhost:3000/search/movies/"
 
         }
     }
 
+
     myAppi = async () => {
  //       let res = await fetch("https://api.themoviedb.org/3/search/movie?api_key=b78674d3628205a6d6750bf73d941a40&query=Frozen")
         let res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=b78674d3628205a6d6750bf73d941a40&query=${this.state.serie}/`)
-//        let res = await fetch(`https://localhost:3000$/search/movies{this.state.serie}/`)
+//        let res = await fetch(`https://localhost:3000/search/movies/`)
+//        let res = await fetch(`${this.state.url}`)
         let data = await res.json()
  //       console.log(data[0].show.name)
         this.setState({
