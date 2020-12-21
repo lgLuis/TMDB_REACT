@@ -8,6 +8,7 @@ class Search extends Component {
             serie: '',
             image: '#',
             resumen: '',
+ //           input: ''
 //            url: "https://localhost:3000/search/movies/"
 
         }
